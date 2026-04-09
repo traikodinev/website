@@ -17,9 +17,15 @@
   },
   "homepage": "https://github.com/traikodinev/traiko.com#readme",
   "devDependencies": {
-    "browser-sync": "^3.0.3",
-    "gulp": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.83.0"
+    "browser-sync": "^2.26.7",
+    "gulp": "^4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.2.1",
+    "st": "^1.2.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.14.2",
+    "hoek": "^5.0.4",
+    "keras-js": "^1.0.3"
   }
 }

@@ -83,6 +83,7 @@ header {
 			// margin-left: 50px;
 			margin-top: 10px;
 			a {
+				
 				&:not(:first-child) {
 					margin-left: 15px;
 				}
@@ -100,6 +101,22 @@ header {
 
 				background: url('../resources/google-scholar.png');
 				background-size: 100% 100%;
+				width: 70px;
+				height: 70px;
+				display: inline-block;
+				
+			}
+
+			.i-x {
+				position: relative;
+				top: 17px;
+				margin-top: -15px;
+
+				background: url('../resources/x_logo.png');
+				
+				background-position: center center;
+				background-size: 80% 80%;
+				background-repeat: no-repeat;
 				width: 70px;
 				height: 70px;
 				display: inline-block;
@@ -145,7 +162,7 @@ section.blog {
 	.blog-item {
 		background: #fff;
 		max-width: 250px;
-		padding: 15px 30px;
+		padding: 15px 20px;
 		border-radius: 10px;
 		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 		cursor: pointer;
@@ -155,7 +172,7 @@ section.blog {
 		margin-bottom: 20px;
 		border: 1px solid rgba(0, 0, 0, 0.4);
 
-		min-height: 350px;
+		// min-height: 350px;
 
 		text-align: center;
 
